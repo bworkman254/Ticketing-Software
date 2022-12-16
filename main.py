@@ -292,7 +292,6 @@ class NewTicket(tk.Tk):
         super().__init__()
         self.title("New Ticket")
         self.ticket_system = ticket_system
-        self.iconbitmap("icon.ico")
 
         self.name_label = ttk.Label(self, text="Customer Name:")
         self.name_entry = ttk.Entry(self)
